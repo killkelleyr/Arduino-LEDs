@@ -22,7 +22,7 @@
 #include <TimerOne.h>
 #include "LPD6803.h"
 
-#define PIXELS 50
+#define PIXELS 99
 
 // Choose which 2 pins you will use for output.
 // Can be any valid output pins.

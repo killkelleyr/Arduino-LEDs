@@ -18,7 +18,7 @@ uint8_t LED_Breathe_Table[]  = {   80,  87,  95, 103, 112, 121, 131, 141, 151, 1
 #define BREATHE_UPDATE    (BREATHE_CYCLE / BREATHE_TABLE_SIZE)     
 int cycle;     
      
-int nLEDs = 50;
+int nLEDs = 99;
             /*  Change to number of LEDs  */
             /*          |                 */
 LPD6803 strip = LPD6803(nLEDs, dataPin, clockPin);

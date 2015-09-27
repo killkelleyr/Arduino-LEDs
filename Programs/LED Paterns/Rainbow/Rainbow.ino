@@ -6,11 +6,11 @@ int clockPin = 13;      // 'blue' wire
      
             /*  Change to number of LEDs  */
             /*          |                 */
-LPD6803 strip = LPD6803(25, dataPin, clockPin);
+LPD6803 strip = LPD6803(99, dataPin, clockPin);
 
 void setup() {
   
-  strip.setCPUmax(50); //Set the CPU Usage
+  strip.setCPUmax(90); //Set the CPU Usage
   strip.begin(); //Initiate Strip
   strip.show(); //Turn all LEDs off
   //rainbow(50);

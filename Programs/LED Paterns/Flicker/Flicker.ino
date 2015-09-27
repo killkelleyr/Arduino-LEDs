@@ -6,11 +6,11 @@
 /*****************************************************************************/
 
 // Number of RGB LEDs in strand:
-int nLEDs = 50;
+int nLEDs = 99;
 
 // Chose 2 pins for output; can be any valid output pins:
-int dataPin  = 6;
-int clockPin = 8;
+int dataPin  = 11;
+int clockPin = 13;
 
 // First parameter is the number of LEDs in the strand.  The LED strips
 // are 32 LEDs per meter but you can extend or cut the strip.  Next two

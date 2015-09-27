@@ -6,7 +6,7 @@
 int dataPin = 11;       // 'green' wire
 int clockPin = 13;      // 'blue' wire
 //int c= Color(0,63,0);
-LPD6803 strip = LPD6803(50, dataPin, clockPin);
+LPD6803 strip = LPD6803(99, dataPin, clockPin);
 
 int r = 6;
 int g = 2;
